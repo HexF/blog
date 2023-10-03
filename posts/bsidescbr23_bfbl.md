@@ -1,6 +1,6 @@
 ---
 title: BSidesCbr CTF 2023 bfbl Writeup
-publish_date: null
+publish_date: 2023-10-03
 ---
 
 `bfbl` was a pwn challenge at the BSidesCbr CTF which got 1 solve.
