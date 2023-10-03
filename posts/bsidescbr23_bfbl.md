@@ -45,7 +45,7 @@ In this case, the application is so small that the segmentation register is neve
 
 With that, we can input all this into ghidra and check out the first 512 bytes, making sure we specify 16-bit real mode to ghidra.
 
-![ghidra importing boot sector](assets/bsidescbr23_bfbl/ghdira-bs-import.png)
+![ghidra importing boot sector](assets/bsidescbr23_bfbl/ghidra-bs-import.png)
 
 We have to do a bit of convincing to ghidra to tell the entrypoint, but eventually we find a function which relocates the code to `0000:0500` and jumps to another method.
 
