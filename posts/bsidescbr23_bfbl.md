@@ -77,7 +77,7 @@ ES:BX -> data buffer
 
 Tidying up the decompilation a bit more we arrive at this:
 
-![bootstrap entrypoint dissassembly](btfk-bs-decomp.png)
+![bootstrap entrypoint dissassembly](assets/bsidescbr23_bfbl/btfk-bs-decomp.png)
 
 This code appears to simply be loading in 24 sectors (24 * 512 bytes) into memory at `0000:4000`, 512 bytes in to our disk image.
 This process is commonly called bootstrapping and is typically required as useful programs are typically more than 512 bytes in size.
@@ -288,8 +288,9 @@ Shoutout to `flk0` (`_flk_` on Discord) who wrote a fair portion of the final ex
 Great CTF all round from the [Cybears](https://cybears.io), **esp**ecially the badge challenges - they were all quite fun.
 
 Always remember
-![The real flags are the friends we made along the way](real-flags-meme.png)
+![The real flags are the friends we made along the way](assets/bsidescbr23_bfbl/real-flags-meme.png)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/BSidesCbr?ref_src=twsrc%5Etfw">@BSidesCbr</a> nope, definitely hacked:) <a href="https://t.co/SiY0ciBXt2">pic.twitter.com/SiY0ciBXt2</a></p>&mdash; Peter (@rankstar591) <a href="https://twitter.com/rankstar591/status/1707500298766569750?ref_src=twsrc%5Etfw">September 28, 2023</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
+(Sorry Peter, we thought there was a flag there!)
