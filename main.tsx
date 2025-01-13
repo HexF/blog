@@ -1,6 +1,9 @@
 /** @jsx h */
 
-import blog, { ga, redirects, h } from "blog";
+import blog, { ga, redirects, h } from "blog"
+import "https://esm.sh/prismjs@1.29.0/components/prism-markup-templating";
+import "https://esm.sh/prismjs@1.29.0/components/prism-python";
+import "https://esm.sh/prismjs@1.29.0/components/prism-php";
 
 blog({
   title: "HexF",
@@ -10,6 +13,7 @@ blog({
     {title: "Email", url:"mailto:website@hexf.me"}
   ],
   lang: "en",
+  disableHtmlSanitization: true
 
   // middlewares: [
 
